@@ -1,0 +1,81 @@
+@import url("//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse");
+
+@font-face {font-family: "Norse"; src: url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot"); src: url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff") format("woff"), url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.svg#Norse") format("svg"); }
+
+
+body{
+    left: 0;
+    top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.font-logo{
+    font-family: "Norse";
+    font-size: 64px;
+    color: #ffffff;
+
+}
+
+.back-image{
+    background-image: url("images/rainyday.jpg");
+    background-size: cover;
+}
+
+.main-container{
+    left: 0;
+    top: 0;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left: 0;
+    margin: 0;
+    width: 30%;
+    height: 100vh;
+    
+}
+
+.odin-logo{
+    align-content: center;
+    height: 150px;
+    width: auto;
+}
+
+.left-banner-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.45);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 180px;
+    margin-bottom: 60px;
+    
+}
+
+.footer_left{
+    
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_left a{
+    color: #fff;
+}
+
+.footer_left a:hover{
+    text-decoration: none;
+}
+
+.footer_left a:visited{
+    color: #fff;
+}
+
+.text_footer{
+    margin-top: 300px;
+}
