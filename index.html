@@ -24,7 +24,57 @@
                 </div>
             </div>
         </div>
-        <div class="main-form right-div"></div>
+        <div class="right-div">
+
+            <h2>This is not a real service! You know you need something like this in your life to help you
+                 realize your deepest dream.<br> Sign up <span class="italic_text">now</span> to get started.</h2>
+            <p>You <span class="italic_text">know</span> you want to.</p>
+<!-- HERE START THE FORM -->
+            <form action="" method="post" class="main-form form_inputs">
+                <label for="" class="title_form">Let's do this</label>
+
+                <div class="name_form">
+
+                    <div class="flex_column">
+                    <label for="user_name"><strong>First Name:</strong></label>
+                    <input type="text" name="user_name" class="input_length" minlength="1" maxlength="20"  placeholder="John" required id="">
+                    </div>
+
+                    <div class="flex_column">
+                    <label for="user_last_name"><strong>Last Name:</strong></label>
+                    <input type="text" name="user_last_name" class="input_length" minlength="1" maxlength="20" placeholder="Smith" required id="">
+                    </div>
+
+                   
+                </div>
+                <div class="email_number_form">
+                    <div class="flex_column">
+                        <label for="email_address"><strong>E-mail:</strong></label>
+                        <input type="email" name="email_address" class="input_length" minlength="1" placeholder="your@email.com" required id="">
+                    </div>
+                    <div class="flex_column">
+                        <label for="phone"><strong>Phone Number:</strong></label>
+                        <input type="number" name="phone" class="input_length" min="1" max="999999999" placeholder="Ex. 456412312" required id="">
+                    </div>
+                </div>
+                <div class="passwords">
+                    <div class="flex_column">
+                        <label for="password"><strong>Password:</strong></label>
+                        <input type="password" name="password" class="error input_length" minlength="8" placeholder="Your password"  required id="">
+                    </div>
+                    <div class="flex_column">
+                        <label for="confirmation_password"><strong>Confirmation Password:</strong></label>
+                        <input type="password" name="confirmation_password" class="error input_length"  minlength="8" placeholder="Repeat your password" required id="">
+                    </div>
+                </div>  
+                <button class="create_account">Create Account</button> 
+            </form>
+            
+            <div class="footer">
+                <p class="footer_para">Already have an accound? <a href="#">Log in</a></p>
+            </div>
+
+        </div>
     </div>
 
 </body>
