@@ -180,7 +180,7 @@ form{
     border: none;
     background-color: rgb(88, 109, 139);
     font-weight: 500;
-    box-shadow: 5px 1px 5px #222;
+    box-shadow: 5px 5px 5px #222;
 }
 
 .create_account:hover{
