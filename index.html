@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODIN Sign-Up Form</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
@@ -36,12 +37,12 @@
                 <div class="name_form">
 
                     <div class="flex_column">
-                    <label for="user_name"><strong>First Name:</strong></label>
-                    <input type="text" name="user_name" class="input_length" minlength="1" maxlength="20"  placeholder="John" required id="">
+                    <label for="user_name"  class="label_form"><strong>First Name:</strong></label>
+                    <input type="text" name="user_name" class="input_length" minlength="1" maxlength="20" placeholder="John" required id="">
                     </div>
 
                     <div class="flex_column">
-                    <label for="user_last_name"><strong>Last Name:</strong></label>
+                    <label for="user_last_name"  class="label_form"><strong>Last Name:</strong></label>
                     <input type="text" name="user_last_name" class="input_length" minlength="1" maxlength="20" placeholder="Smith" required id="">
                     </div>
 
@@ -49,22 +50,22 @@
                 </div>
                 <div class="email_number_form">
                     <div class="flex_column">
-                        <label for="email_address"><strong>E-mail:</strong></label>
+                        <label for="email_address" class="label_form"><strong>E-mail:</strong></label>
                         <input type="email" name="email_address" class="input_length" minlength="1" placeholder="your@email.com" required id="">
                     </div>
                     <div class="flex_column">
-                        <label for="phone"><strong>Phone Number:</strong></label>
+                        <label for="phone" class="label_form"><strong>Phone Number:</strong></label>
                         <input type="number" name="phone" class="input_length" min="1" max="999999999" placeholder="Ex. 456412312" required id="">
                     </div>
                 </div>
                 <div class="passwords">
                     <div class="flex_column">
-                        <label for="password"><strong>Password:</strong></label>
-                        <input type="password" name="password" class="error input_length" minlength="8" placeholder="Your password"  required id="">
+                        <label for="password" class="label_form"><strong>Password:</strong></label>
+                        <input type="password" name="password" class="input_length" minlength="8" placeholder="Your password"  required id="">
                     </div>
                     <div class="flex_column">
-                        <label for="confirmation_password"><strong>Confirmation Password:</strong></label>
-                        <input type="password" name="confirmation_password" class="error input_length"  minlength="8" placeholder="Repeat your password" required id="">
+                        <label for="confirmation_password" class="label_form"><strong>Confirmation Password:</strong></label>
+                        <input type="password" name="confirmation_password" class="input_length"  minlength="8" placeholder="Repeat your password" required id="">
                     </div>
                 </div>  
                 <button class="create_account">Create Account</button> 

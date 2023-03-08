@@ -79,7 +79,7 @@ body{
 }
 
 .text_footer{
-    margin-top: 300px;
+    margin-top: 220px;
 }
 
 h2{
@@ -105,12 +105,13 @@ p{
 
 .main-form{
     margin-top: 30px;
-    padding: 30px 0 30px 30px;
+    padding: 30px 0 0px 30px;
 }
 
 form{
     background-color: #fff;
     box-shadow: 5px 1px 5px #222;
+    height: 260px;
 }
 
 .title_form{
@@ -130,7 +131,9 @@ form{
     flex-direction: column;
 }
 
-
+.label_form{
+    margin-bottom: 5px;
+}
 
 .input_length{
     width: 250px;
@@ -155,6 +158,11 @@ form{
     
 }
 
+.input_length:invalid{
+    outline: auto #32a1ce;
+    border:1px solid red;
+    
+}
 .error{
     outline: none ;
     border:1px solid red
@@ -181,12 +189,18 @@ form{
     background-color: rgb(88, 109, 139);
     font-weight: 500;
     box-shadow: 5px 5px 5px #222;
+    transform: translateY(30px);
 }
 
 .create_account:hover{
     background-color: rgb(27, 27, 46);
     color: #fff;
 }
+
+.create_account:active{
+    box-shadow: none;
+}
+
 
 .footer{
     left: 0;
@@ -197,6 +211,7 @@ form{
 .footer_para{
     left: 0;
     top: 0;
+    margin-top: 100px;
     font-size: 16px;
 }
 
@@ -209,3 +224,108 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:375px){
+
+    .main-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-div{
+        width: 100%;
+    }
+    
+ h2{
+    margin-top: 30px;
+ }
+
+    .right-div{
+        width: 100%;
+    }
+
+    
+
+    .odin-logo{
+        height: 50px;
+        width: auto;
+    }
+
+    .font-logo{
+        font-size: 32px;
+    }
+
+    .footer_left{
+        margin:0;
+        font-size: 14px;
+    }
+
+    .text_footer{
+        margin: 0;
+    }
+
+    .footer_para{
+       margin-bottom: 20px;
+
+    }
+
+.left-banner-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.45);
+}
+
+
+
+form{
+        height: 320px;
+    }
+
+    .input_length{
+        width: 90%;
+    }
+    .name_form, .email_number_form, .passwords{
+
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .main-container{
+        width: 100%;
+    }
+    
+    .left-div{
+        width: 100%;
+    }
+    
+    .right-div{
+        width: 100%;
+    }
+ 
+    form{
+        height: 420px;
+    }
+
+    .input_length{
+        width: 90%;
+    }
+    .name_form, .email_number_form, .passwords{
+
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
